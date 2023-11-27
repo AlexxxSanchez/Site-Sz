@@ -1,0 +1,56 @@
+.main-p{
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.players{
+  display: flex;
+  align-items: center;
+  padding-right: 30px;
+  background-color: rgba(3, 223, 223, 0.855);
+  border: 3px solid;
+  border-radius: 5px;
+  border-color: #5c1a8e71;
+  margin: 20px;
+
+}
+
+#myAudio{
+  margin-right: 0;
+  margin-left: auto;
+}
+
+.players>p{
+  font-size: 22px;
+  margin-right: 60px;
+  justify-content: left;
+}
+
+.audio{
+  padding: 10px;
+  width: 35%;
+}
+
+  /* описание исполнителей */
+
+.description{
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+  margin-left: 20px;
+  background-color: rgba(3, 223, 223, 0.855);
+  border: 3px solid;
+  border-radius: 5px;
+  border-color: #5c1a8e71;
+}
+
+.description>p{
+  text-align: justify;
+  font-size: 26px;
+}
+ 
+.error {
+  color: rgb(232, 224, 224);
+}
+
+    /* описание исполнителей */

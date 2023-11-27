@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Все/Стили/styles.css">
+    <link rel="stylesheet" type="text/css" href="Все/Шрифты/styles.css">
+    <link rel="icon" href="Все/Картинки/icon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="Все/Картинки/icon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обратная связь</title>
+
+</head>
+
+<body>
+    <div class="navigation-bar">
+        <nav class="navhat">
+            <li><a href="index.html"><img src="Все/Картинки/logo.png" alt="Логотип"></a></li>
+            <div>
+                <button id="myButton" onclick="toggleContextMenu(event)">Жанры</button>
+                <div id="contextMenu">
+                    <a href="pop.html">Поп</a>
+                    <a href="hip-hop.html">Хип-хоп</a>
+                    <a href="rap.html">Рэп</a>
+                    <a href="rock.html">Рок</a>
+                    <a href="alternative.html">Альтернатива</a>
+                    <script src="button.js"></script>
+                </div>
+            </div>
+            <li><a href="feedback.html">Обратная связь</a></li>
+            <li><a href="#">Пожертвовать</a></li>
+            <li><a href="about us.html">О нас</a></li>
+        </nav>
+    </div>
+    <p class="text">
+        Обратная связь
+    </p>
+    <div class="Form">
+        <form action="#" id="form">
+            
+            <textarea name="nickname" placeholder="Введите имя..." class="textarea"></textarea>
+            <textarea name="mail" placeholder="Введите почту..." class="textarea"></textarea>
+            <textarea name="text" placeholder="Введите ваше предложение, просьбу или жалобу..." class="txtfeedback"></textarea>
+            <button type="submit" class="button">Отправить</button>
+
+        </form>
+
+        <script src="./form.js"></script>
+    </div>
+
+</body>
+
+</html>
